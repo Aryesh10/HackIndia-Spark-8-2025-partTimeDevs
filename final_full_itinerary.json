@@ -1,0 +1,221 @@
+{
+  "tripData": {
+    "destination": "Varanasi, India",
+    "startDate": "2024-05-14",
+    "endDate": "2024-05-15",
+    "duration": 2,
+    "currency": {
+      "name": "Indian Rupee (₹)",
+      "conversionRate": 1.0
+    },
+    "weather": "",
+    "language": "Hindi, English",
+    "emergencyContact": "112",
+    "electricalOutlet": "Type C, 230V",
+    "transportation": [
+      "Auto-rickshaw",
+      "Taxi",
+      "Bus",
+      "Metro"
+    ],
+    "cost": {
+      "transportation": {
+        "inr": 2000
+      },
+      "accommodation": {
+        "inr": 4000
+      },
+      "food": {
+        "inr": 0
+      },
+      "activities": {
+        "inr": 0
+      },
+      "miscellaneous": {
+        "inr": 5000
+      },
+      "total": {
+        "inr": 10000
+      }
+    }
+  },
+  "itineraryDays": [
+    {
+      "day": 1,
+      "title": "Day 1",
+      "transport": {
+        "type": "Auto-rickshaw",
+        "details": "Local transport",
+        "time": "09:00",
+        "cost": "₹200-300"
+      },
+      "accommodation": {
+        "name": "Hotel to be booked",
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "price": "₹2000-3000/night",
+        "location": "City Center"
+      },
+      "activities": [
+        {
+          "name": "Sunrise Boat Ride on the Ganges",
+          "time": "2 hours",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 27.40364008716091,
+            "longitude": 83.00912404576209
+          },
+          "description": "Witness the mesmerizing sunrise over the Ganges River. A serene experience to observe the morning rituals and ghats.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Kashi Vishwanath Temple",
+          "time": "2-3 hours",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 25.3108532,
+            "longitude": 83.0106783
+          },
+          "description": "Visit one of the most famous Hindu temples dedicated to Lord Shiva.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Annapurna Temple",
+          "time": "1-2 hours",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 22.6901679,
+            "longitude": 75.8381847
+          },
+          "description": "Visit another important temple dedicated to the goddess of food, Annapurna.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Lunch at Kashi Chat Bhandar",
+          "time": "1 hour",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 25.3094215,
+            "longitude": 83.00605879999999
+          },
+          "description": "Enjoy traditional Varanasi street food in a relatively sheltered environment.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Dashashwamedh Ghat Evening Aarti",
+          "time": "1-2 hours",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 25.3063136,
+            "longitude": 83.0100192
+          },
+          "description": "Attend the spectacular Ganga Aarti ceremony at Dashashwamedh Ghat.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Dinner at a local vegetarian restaurant",
+          "time": "1-1.5 hours",
+          "indoor": false,
+          "location": "",
+          "coordinates": null,
+          "description": "Enjoy a traditional thali in a temperature-controlled restaurant.",
+          "estimated_cost": 0
+        }
+      ],
+      "food": [],
+      "tips": "Stay hydrated and carry water. Wear comfortable walking shoes."
+    },
+    {
+      "day": 2,
+      "title": "Day 2",
+      "transport": {
+        "type": "Auto-rickshaw",
+        "details": "Local transport",
+        "time": "09:00",
+        "cost": "₹200-300"
+      },
+      "accommodation": {
+        "name": "Hotel to be booked",
+        "checkIn": "14:00",
+        "checkOut": "11:00",
+        "price": "₹2000-3000/night",
+        "location": "City Center"
+      },
+      "activities": [
+        {
+          "name": "Sarnath Excursion",
+          "time": "4-5 hours (including travel)",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 25.3715564,
+            "longitude": 83.0252136
+          },
+          "description": "Visit Sarnath, where Buddha gave his first sermon. Explore the Dhamek Stupa and Archaeological Museum.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Bharat Kala Bhavan Museum (Banaras Hindu University)",
+          "time": "2-3 hours",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 25.27149,
+            "longitude": 82.995994
+          },
+          "description": "Explore a diverse collection of Indian art and archaeology within the Banaras Hindu University campus. Offers a cooler environment.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Lunch at a restaurant near BHU",
+          "time": "1 hour",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 25.2685304,
+            "longitude": 82.9904737
+          },
+          "description": "Enjoy a meal at a restaurant near the Banaras Hindu University.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Manikarnika Ghat (Cremation Ghat)",
+          "time": "1 hour",
+          "indoor": false,
+          "location": "",
+          "coordinates": {
+            "latitude": 25.3110574,
+            "longitude": 83.01402759999999
+          },
+          "description": "Witness the Hindu cremation rituals at Manikarnika Ghat. (Note: This can be a sensitive experience).",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Shopping for Silk Sarees",
+          "time": "2-3 hours",
+          "indoor": false,
+          "location": "",
+          "coordinates": null,
+          "description": "Explore the local markets for famous Banarasi silk sarees. Look for shops that offer a comfortable shopping environment.",
+          "estimated_cost": 0
+        },
+        {
+          "name": "Dinner at a rooftop restaurant (if weather permits)",
+          "time": "1-1.5 hours",
+          "indoor": false,
+          "location": "",
+          "coordinates": null,
+          "description": "Enjoy dinner at a rooftop restaurant with a view of the Ganges. Check weather conditions before.",
+          "estimated_cost": 0
+        }
+      ],
+      "food": [],
+      "tips": "Stay hydrated and carry water. Wear comfortable walking shoes."
+    }
+  ]
+}

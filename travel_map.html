@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_15a3b8ea2ae339874084b88a2b2ad3b8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_15a3b8ea2ae339874084b88a2b2ad3b8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_15a3b8ea2ae339874084b88a2b2ad3b8 = L.map(
+                "map_15a3b8ea2ae339874084b88a2b2ad3b8",
+                {
+                    center: [27.40364008716091, 83.00912404576209],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c963ff2815c41c8fa6f98c4d50defc60 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c963ff2815c41c8fa6f98c4d50defc60.addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var marker_65cc15472fb8b414010d65110e7c4eb0 = L.marker(
+                [27.40364008716091, 83.00912404576209],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_55eb02aaaba670e6f7fadb081ebde435 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8624d3af0e9a0b0d327143eef1187488 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ce24416ad6a930cee0bb4a77432bfc55 = $(`<div id="html_ce24416ad6a930cee0bb4a77432bfc55" style="width: 100.0%; height: 100.0%;">                 <b>Sunrise Boat Ride on the Ganges</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_8624d3af0e9a0b0d327143eef1187488.setContent(html_ce24416ad6a930cee0bb4a77432bfc55);
+            
+        
+
+        marker_65cc15472fb8b414010d65110e7c4eb0.bindPopup(popup_8624d3af0e9a0b0d327143eef1187488)
+        ;
+
+        
+    
+    
+                marker_65cc15472fb8b414010d65110e7c4eb0.setIcon(icon_55eb02aaaba670e6f7fadb081ebde435);
+            
+    
+            var marker_b0f2ce36762578d1b6ff6c1be1faf9ff = L.marker(
+                [25.3108532, 83.0106783],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_c13391c8d6669c1e4976a923484db5ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7e28e8a02783b5fcabc8231f24d04688 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_13ab03079a3c343004491814e786b1b4 = $(`<div id="html_13ab03079a3c343004491814e786b1b4" style="width: 100.0%; height: 100.0%;">                 <b>Kashi Vishwanath Temple</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_7e28e8a02783b5fcabc8231f24d04688.setContent(html_13ab03079a3c343004491814e786b1b4);
+            
+        
+
+        marker_b0f2ce36762578d1b6ff6c1be1faf9ff.bindPopup(popup_7e28e8a02783b5fcabc8231f24d04688)
+        ;
+
+        
+    
+    
+                marker_b0f2ce36762578d1b6ff6c1be1faf9ff.setIcon(icon_c13391c8d6669c1e4976a923484db5ff);
+            
+    
+            var marker_c32288f586bc4591318d7a06c3ca494b = L.marker(
+                [22.6901679, 75.8381847],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_d9b85c3b360f5638e180591ac85be4c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fe39b6c345731e4f539528a44db025f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f072fc6bd153511edccd981473de6403 = $(`<div id="html_f072fc6bd153511edccd981473de6403" style="width: 100.0%; height: 100.0%;">                 <b>Annapurna Temple</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_5fe39b6c345731e4f539528a44db025f.setContent(html_f072fc6bd153511edccd981473de6403);
+            
+        
+
+        marker_c32288f586bc4591318d7a06c3ca494b.bindPopup(popup_5fe39b6c345731e4f539528a44db025f)
+        ;
+
+        
+    
+    
+                marker_c32288f586bc4591318d7a06c3ca494b.setIcon(icon_d9b85c3b360f5638e180591ac85be4c5);
+            
+    
+            var marker_e688f7078a5179077a3e484b3cca13c9 = L.marker(
+                [25.3094215, 83.00605879999999],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_f10cc93950b7e6bc037fda24e39af309 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2e92801b2aa06f363756a503ec34b167 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_51187268a24b3a6d401c6b1f2d6fabdc = $(`<div id="html_51187268a24b3a6d401c6b1f2d6fabdc" style="width: 100.0%; height: 100.0%;">                 <b>Lunch at Kashi Chat Bhandar</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_2e92801b2aa06f363756a503ec34b167.setContent(html_51187268a24b3a6d401c6b1f2d6fabdc);
+            
+        
+
+        marker_e688f7078a5179077a3e484b3cca13c9.bindPopup(popup_2e92801b2aa06f363756a503ec34b167)
+        ;
+
+        
+    
+    
+                marker_e688f7078a5179077a3e484b3cca13c9.setIcon(icon_f10cc93950b7e6bc037fda24e39af309);
+            
+    
+            var marker_04559044f5aa6430e31fa8c724e1ba54 = L.marker(
+                [25.3063136, 83.0100192],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_5c4678525f30ee027d392733c729dde3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e00dfa4f0786e74f3fb0a2266efe5f3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b97910806be668e60b13342452880964 = $(`<div id="html_b97910806be668e60b13342452880964" style="width: 100.0%; height: 100.0%;">                 <b>Dashashwamedh Ghat Evening Aarti</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_5e00dfa4f0786e74f3fb0a2266efe5f3.setContent(html_b97910806be668e60b13342452880964);
+            
+        
+
+        marker_04559044f5aa6430e31fa8c724e1ba54.bindPopup(popup_5e00dfa4f0786e74f3fb0a2266efe5f3)
+        ;
+
+        
+    
+    
+                marker_04559044f5aa6430e31fa8c724e1ba54.setIcon(icon_5c4678525f30ee027d392733c729dde3);
+            
+    
+            var marker_87bc41122c76f4b2083055f70d780d14 = L.marker(
+                [25.3715564, 83.0252136],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_522f314e56cbbf00bb82338c021c51c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae0d3145efe5b5b398921cc8519cd9c4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c1af8f82ebf777ece10a42bbb108d6bf = $(`<div id="html_c1af8f82ebf777ece10a42bbb108d6bf" style="width: 100.0%; height: 100.0%;">                 <b>Sarnath Excursion</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_ae0d3145efe5b5b398921cc8519cd9c4.setContent(html_c1af8f82ebf777ece10a42bbb108d6bf);
+            
+        
+
+        marker_87bc41122c76f4b2083055f70d780d14.bindPopup(popup_ae0d3145efe5b5b398921cc8519cd9c4)
+        ;
+
+        
+    
+    
+                marker_87bc41122c76f4b2083055f70d780d14.setIcon(icon_522f314e56cbbf00bb82338c021c51c2);
+            
+    
+            var marker_696dc13ae39ce1f2ba73621093c86402 = L.marker(
+                [25.27149, 82.995994],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_aad9296f35c890cbf33e11b0c2431156 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12b28312092f3e1dd269235c259b73dc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d14f127845794fb2190539ecbca83146 = $(`<div id="html_d14f127845794fb2190539ecbca83146" style="width: 100.0%; height: 100.0%;">                 <b>Bharat Kala Bhavan Museum (Banaras Hindu University)</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_12b28312092f3e1dd269235c259b73dc.setContent(html_d14f127845794fb2190539ecbca83146);
+            
+        
+
+        marker_696dc13ae39ce1f2ba73621093c86402.bindPopup(popup_12b28312092f3e1dd269235c259b73dc)
+        ;
+
+        
+    
+    
+                marker_696dc13ae39ce1f2ba73621093c86402.setIcon(icon_aad9296f35c890cbf33e11b0c2431156);
+            
+    
+            var marker_65a8490fa0d0813e8eb1e2ebfcd746c4 = L.marker(
+                [25.2685304, 82.9904737],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_4e1d003b147cf9fbb27100d4e4abb002 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b9fe93b591b791d643dc9cd7083c4fc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_90e94f7a5b876beba68490df9eb2de38 = $(`<div id="html_90e94f7a5b876beba68490df9eb2de38" style="width: 100.0%; height: 100.0%;">                 <b>Lunch at a restaurant near BHU</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_0b9fe93b591b791d643dc9cd7083c4fc.setContent(html_90e94f7a5b876beba68490df9eb2de38);
+            
+        
+
+        marker_65a8490fa0d0813e8eb1e2ebfcd746c4.bindPopup(popup_0b9fe93b591b791d643dc9cd7083c4fc)
+        ;
+
+        
+    
+    
+                marker_65a8490fa0d0813e8eb1e2ebfcd746c4.setIcon(icon_4e1d003b147cf9fbb27100d4e4abb002);
+            
+    
+            var marker_b32f46012cbfcb26289450cbc74c120e = L.marker(
+                [25.3110574, 83.01402759999999],
+                {
+}
+            ).addTo(map_15a3b8ea2ae339874084b88a2b2ad3b8);
+        
+    
+            var icon_ac3bb0e0a5f32b10e769657a50e4ff12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d9241bea778efcabff778fc4206c34c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_87c0b89d47eecdbbbe9cb33577408f93 = $(`<div id="html_87c0b89d47eecdbbbe9cb33577408f93" style="width: 100.0%; height: 100.0%;">                 <b>Manikarnika Ghat (Cremation Ghat)</b><br>                 Rating: N/A<br>                                  </div>`)[0];
+                popup_5d9241bea778efcabff778fc4206c34c.setContent(html_87c0b89d47eecdbbbe9cb33577408f93);
+            
+        
+
+        marker_b32f46012cbfcb26289450cbc74c120e.bindPopup(popup_5d9241bea778efcabff778fc4206c34c)
+        ;
+
+        
+    
+    
+                marker_b32f46012cbfcb26289450cbc74c120e.setIcon(icon_ac3bb0e0a5f32b10e769657a50e4ff12);
+            
+</script>
+</html>

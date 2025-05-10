@@ -1,0 +1,51 @@
+{
+  "accommodations": [],
+  "restaurants": [],
+  "attractions": [
+    {
+      "name": "Sunrise Boat Ride on the Ganges",
+      "latitude": 27.40364008716091,
+      "longitude": 83.00912404576209
+    },
+    {
+      "name": "Kashi Vishwanath Temple",
+      "latitude": 25.3108532,
+      "longitude": 83.0106783
+    },
+    {
+      "name": "Annapurna Temple",
+      "latitude": 22.6901679,
+      "longitude": 75.8381847
+    },
+    {
+      "name": "Lunch at Kashi Chat Bhandar",
+      "latitude": 25.3094215,
+      "longitude": 83.00605879999999
+    },
+    {
+      "name": "Dashashwamedh Ghat Evening Aarti",
+      "latitude": 25.3063136,
+      "longitude": 83.0100192
+    },
+    {
+      "name": "Sarnath Excursion",
+      "latitude": 25.3715564,
+      "longitude": 83.0252136
+    },
+    {
+      "name": "Bharat Kala Bhavan Museum (Banaras Hindu University)",
+      "latitude": 25.27149,
+      "longitude": 82.995994
+    },
+    {
+      "name": "Lunch at a restaurant near BHU",
+      "latitude": 25.2685304,
+      "longitude": 82.9904737
+    },
+    {
+      "name": "Manikarnika Ghat (Cremation Ghat)",
+      "latitude": 25.3110574,
+      "longitude": 83.01402759999999
+    }
+  ]
+}
